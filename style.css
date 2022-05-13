@@ -137,6 +137,7 @@
     line-height: 70px;
     text-align: center;
     text-decoration: none;
+    
 }
 
 .ex-12-top-white,
@@ -147,6 +148,22 @@
     background: #f5f5f5;
     width: 60px;
     height: 20px;
+    animation: spinnetoppe 2s linear infinite;
+}
+@keyframes spinnetoppe{
+    0%{
+        left: 0%;
+        top: -10%;
+    }
+    80%{
+        left: 80%;
+        top: -10%;
+    }
+    100%{
+        top: 100%;
+        left: 80%
+    }
+
 }
 
 .ex-12-bottom-white,
@@ -157,4 +174,20 @@
     background: #f5f5f5;
     width: 60px;
     height: 20px;
+    animation: spinnebotte 2s linear infinite;
+}
+@keyframes spinnebotte{
+    0%{
+        right: 0%;
+        bottom: -10%;
+    }
+    80%{
+        right: 80%;
+        bottom: -10%;
+    }
+    100%{
+        right: 80%;
+        bottom: 100%;
+    }
+
 }
